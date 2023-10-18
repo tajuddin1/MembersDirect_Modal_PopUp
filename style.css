@@ -33,16 +33,16 @@ body{
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    max-width: 780px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 680px;
     width: 100%;
     background-color: #fff;
     -webkit-box-shadow: 0px 0px 5px 0px #c3c3c3;
-            box-shadow: 0px 0px 5px 0px #c3c3c3;
+    box-shadow: 0px 0px 5px 0px #c3c3c3;
 }
 .popup-content{
-    padding: 30px 50px;
+    padding: 30px 30px;
     position: relative;
 }
 .popup-content .content-flex{
@@ -51,25 +51,25 @@ body{
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    gap: 20px;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 15px;
 }  
 .table table {
     border-collapse: collapse;
   }
 .table table tr td {
     padding: 8px;
-    font-size: 18px;
+    font-size: 17px;
     width: 100%;
     vertical-align: top;
 }
 .table table tr th {
     padding: 8px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
 .table table tr{
@@ -80,7 +80,7 @@ body{
 }
 .left-content {
     width: 100%;
-    max-width: 250px;
+    max-width: 220px;
 }
 .text-start{
     text-align:start;
@@ -91,6 +91,7 @@ body{
 }
 .OraginalPrice{
     color: red;
+    font-weight: 600;
 }
 .priceSave{
     text-align: end;
